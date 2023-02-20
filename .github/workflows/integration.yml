@@ -53,7 +53,7 @@ jobs:
         container: epitechcontent/epitest-docker:latest
         needs: [compile, coding-style]
         steps:
-            -   name:Checkout GH repository
+            -   name: Checkout GH repository
                 run: actions/checkout@master
 
             -   name: Compile tests binaries
