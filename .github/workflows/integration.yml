@@ -10,8 +10,8 @@ jobs:
                 uses: actions/checkout@master
 
             -   name: Get banana script
-                run: curl https://raw.githubusercontent.com/Epitech/
-                coding-style-checker/main/coding-style.sh -o /tmp/coding-style.
+                run: curl https://raw.githubusercontent.com/Epitech/coding-style-checker/main/coding-style.sh
+                -o /tmp/coding-style.
                 sh; chmod +x /tmp/coding-style.sh
 
             -   name: Run coding-style.sh
