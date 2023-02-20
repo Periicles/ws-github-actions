@@ -41,7 +41,7 @@ jobs:
 
             -   name: Check binary exists
                 run: |
-                    if [ ! -f ./swapcase ]; then
+                    if [ ! -f ./swapupcase ]; then
                         echo "Binary not found"
                         exit 1
                     fi
